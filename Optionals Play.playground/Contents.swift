@@ -36,6 +36,10 @@ if let bString = anotherString?.uppercased(){
 // Initialize anotherString="Hello" just before the Optional Binding
 
 
+// MARK: Nil-Coalescing Operator ??
+// TODO: Use the ?? operator instead of the Optional Binding (if let) above to print out "Hello WORLD"
+var cString:String = anotherString ?? "World"
+
 // MARK: GO FURTHER _ Make your own Optionals
 //The struct creates a new data type called "User"
 struct User {
